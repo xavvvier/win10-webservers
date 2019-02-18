@@ -29,7 +29,7 @@ The main Apache configuration file is located at `C:\Apache24\conf\httpd.conf` b
 
 1. Stop Apache server
 
-Stop the command `httpd.exe` running in the Command Prompt in previous step. To do this hit `Ctrl+C` twice and wait some seconds until the prompt shows up.
+Stop the command `httpd.exe` running in the Command Prompt in previous steps. To do this hit `Ctrl+C` twice and wait some seconds until the prompt shows up.
 
 2. Include vhost file line 509 in main configuration file
 
@@ -43,7 +43,7 @@ Open the `http.conf` file and remove the `#` symbol at the beginning of line 509
 
 Open the `httpd-vhosts.conf` file located at `C:\Apache24\conf\extra\httpd-vhosts.conf` and modify the content with the following:
 
-```
+```apache
 <VirtualHost *:80>
    DocumentRoot "C:/Apache24/htdocs/dummy-host"
    ServerName dummy-host.example.com
