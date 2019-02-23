@@ -82,17 +82,17 @@ Installing IIS in Windows 10 does not require any download. The installation pro
 
 #### Adding an ASP website
 
-To generate a dynamic web site using ASP you will follow the same instructions as before, but the file name is `default.asp` instead of `index.html`
+To generate a dynamic web site using ASP you will follow the same instructions as before, but the file name is `default.aspx` instead of `index.html`
 
 1. Create the folder
    
-   Inside the `C:\inetpub\wwwroot` folder create the following file `C:\inetpub\wwwroot\site2\default.asp` with the following content:
+   Inside the `C:\inetpub\wwwroot` folder create the following file `C:\inetpub\wwwroot\site2\default.aspx` with the following content:
 
-   ```asp
+   ```aspx
    <!DOCTYPE html>
    <html>
    <body>
-      Today is: <%response.write(date())%>!
+      Today is: <%= <%= DateTime.Now.ToString()%>!
    </body>
    </html>
    ```
