@@ -92,7 +92,7 @@ To generate a dynamic web site using ASP you will follow the same instructions a
    <!DOCTYPE html>
    <html>
    <body>
-      Today is: <%= <%= DateTime.Now.ToString()%>!
+      Today is: <%= DateTime.Now.ToString()%>!
    </body>
    </html>
    ```

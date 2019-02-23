@@ -1,7 +1,7 @@
 
 ### ASP.net installation
 
-In order to run ASP.net sites in windows, you should have IIS installed, to do so follow the [IIS installation guide](iis.md). Once you have installed IIS, continue with the follow steps:
+In order to run ASP.net sites in windows, you should have IIS installed, to do so follow the [IIS installation guide](iis.md). Once you have installed IIS, continue with the following steps:
 
 1. Adding the feature to windows
 
