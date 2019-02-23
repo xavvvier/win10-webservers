@@ -40,7 +40,7 @@ Installing IIS in Windows 10 does not require any download. The installation pro
 
    ![localhost](images/iis5.png)
 
-#### Adding stati static websites
+#### Adding static websites
 
 1. Create the folder
 
