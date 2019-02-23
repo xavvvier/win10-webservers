@@ -1,6 +1,6 @@
 # Windows 10 Web Server Development Enviroment Setup
 
-This guide provides a set of installation instructions on how to setup a developer enviroment in a brand new Windows 10 64-bits workstation.
+This guide provides a set of installation instructions on how to setup a developer environment in a brand new Windows 10 64-bit workstation.
 
 Each component has a separate guide to follow:
 
